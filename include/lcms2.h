@@ -228,7 +228,7 @@ typedef int                  cmsBool;
 #       endif
 #     endif
 #  else
-#       define CMSEXPORT
+#       define CMSEXPORT	__stdcall
 #       define CMSAPI
 #  endif
 #else
